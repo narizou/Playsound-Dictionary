@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ジャンル別音検索</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ジャンル別音検索</h1>
+        
+        <!-- ジャンル選択メニュー（複数選択可能） -->
+        <select id="genreSelect" multiple onchange="searchDictionary()">
+            <option value="斬撃">斬撃</option>
+            <option value="弓">弓</option>
+            <option value="銃">銃</option>
+            <option value="魔法">魔法</option>
+            <option value="打撃・衝突">打撃・衝突</option>
+            <option value="爆発">爆発</option>
+            <option value="発射">発射</option>
+            <option value="溜める">溜める</option>
+            <option value="鳴き声">鳴き声</option>
+            <option value="機械">機械</option>
+            <option value="ダメージ">ダメージ</option>
+            <option value="炎">炎</option>
+            <option value="水">水</option>
+            <option value="氷">氷</option>
+            <option value="石">石・金属</option>
+            <option value="風">風</option>
+            <option value="電気">電気</option>
+            <option value="システム">システム</option>
+            <option value="その他">その他</option>
+        </select>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -72,7 +72,7 @@ const dictionary = [
     { name: "トライデントが命中する", id: "item.trident.hit", sounds: [["item/trident/pierce", 3]], genre: ["打撃・衝突", "石・金属"] },
     { name: "トライデントが戻ってくる", id: "item.trident.return", sounds: [["item/trident/return", 3]], genre: ["魔法", "石・金属"] },
     { name: "トライデントで突進する", id: "item.trident.riptide_3", sounds: ["item/trident/riptide3"], genre: ["打撃・衝突", "石・金属", "風"] },
-    { name: "トライデントの雷が轟く", id: "item.trident.thunder", sounds: [["item/trident/thunder", 2]], genre: ["打撃・衝突", "石・金属", "電気"] },
+    { name: "トライデントの雷が轟く", id: "item.trident.thunder", sounds: [["item/trident/thunder", 2]], genre: ["打撃・衝突", "電気"] },
     { name: "メイスが振り降ろされる", id: "item.mace.smash_air", sounds: [["item/mace/smash_air", 3]], genre: ["打撃・衝突", "石・金属"] },   
     { name: "メイスが振り降ろされる", id: "item.mace.smash_ground", sounds: [["item/mace/smash_ground", 4]], genre: ["打撃・衝突", "石・金属"] },
     { name: "メイスが振り降ろされる", id: "item.mace.smash_ground_heavy", sounds: ["item/mace/smash_ground_heavy"], genre: ["打撃・衝突", "石・金属"] },

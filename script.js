@@ -126,7 +126,7 @@ function searchDictionary() {
             `;
         }).join('<br>');
     } else {
-        resultDiv.innerHTML = "該当する単語が見つかりませんでした。";
+        resultDiv.innerHTML = "該当する音が見つかりませんでした。";
     }
 }
 

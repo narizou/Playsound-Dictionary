@@ -1,6 +1,6 @@
 const dictionary = [
     { name: "アメジストが破壊される", id: "block.amethyst_cluster.break", sounds: [["block/amethyst_cluster/break", 4]], genre: ["氷", "石・金属", "ダメージ"] },
-    { name: "金床が落下する", id: "block.anvil.land", sounds: ["random/anvil_land"], genre: ["打撃・衝突", "ダメージ"] },
+    { name: "金床が落下する", id: "block.anvil.land", sounds: ["random/anvil_land"], genre: ["打撃・衝突", "ダメージ","石・金属"] },
     { name: "ビーコンが起動する", id: "block.beacon.activate", sounds: ["block/beacon/activate"], genre: ["魔法"] },
     { name: "ビーコンが唸る", id: "block.beacon.ambient", sounds: ["block/beacon/ambient"], genre: ["魔法"] },
     { name: "ビーコンが停止する", id: "block.beacon.deactivate", sounds: ["block/beacon/deactivate"], genre: ["魔法"] },

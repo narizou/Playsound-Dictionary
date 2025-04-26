@@ -12,6 +12,7 @@ const dictionary = [
     { name: "ガラスが破壊される音", id: "block.glass.break", sounds: [["random/glass", 3]], genre: ["氷", "ダメージ"] },
     { name: "砥石・金属が使用される", id: "block.grindstone.use", sounds: [["block/grindstone/grindstone", 3]], genre: ["石・金属"] },
     { name: "音符ブロックの電子音", id: "block.note_block.bit", sounds: ["note/bit"], genre: ["機械","システム"] },
+    { name: "音符ブロックからでるスティックの音", id: "block.note_block.hat", sounds: ["note/hat"], genre: ["機械","システム"] },
     { name: "ピストンが伸びる", id: "block.piston.extend", sounds: ["tile/piston/out"], genre: ["機械", "石・金属"] },
     { name: "ピストンが元に戻る", id: "block.piston.contract", sounds: ["tile/piston/in"], genre: ["機械", "石・金属"] },
     { name: "リスポーンアンカーがチャージされる", id: "block.respawn_anchor.charge", sounds: [["block/respawn_anchor/charge", 3]], genre: ["魔法", "溜める"] },

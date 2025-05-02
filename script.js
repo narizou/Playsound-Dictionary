@@ -34,7 +34,7 @@ const dictionary = [
     { name: "エンダードラゴンがダメージを受ける", id: "entity.ender_dragon.hurt", sounds: [["mob/enderdragon/hit", 4]], genre: ["機械", "ダメージ"] },
     { name: "テレポート", id: "entity.enderman.teleport", sounds: ["mob/endermen/portal", "mob/endermen/portal2"], genre: ["魔法"] },
     { name: "エルダーガーディアンの呪い", id: "entity.elder_guardian.curse", sounds: ["mob/guardian/curse"], genre: ["魔法"] },
-    { name: "ガーディアンがダメージを受ける", id: "entity.guardian.hurt", sounds: [["mob/guardian/curse",4]], genre: ["魔法"] },
+    { name: "ガーディアンがダメージを受ける", id: "entity.guardian.hurt", sounds: [["mob/guardian/guardian_hit",4]], genre: ["魔法","ダメージ"] },
     { name: "エヴォーカーが呪文を唱える", id: "entity.evoker.cast_spell", sounds: [["mob/evocation_illager/cast", 2]], genre: ["魔法"] },
     { name: "エヴォーカーが攻撃の準備を行う", id: "entity.evoker.prepare_attack", sounds: [["mob/evocation_illager/prepare_attack", 2]], genre: ["魔法"] },
     { name: "エヴォーカーが召喚の準備を行う", id: "entity.evoker.prepare_summon", sounds: ["mob/evocation_illager/prepare_summon"], genre: ["魔法"] },

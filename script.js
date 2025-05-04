@@ -69,7 +69,7 @@ const dictionary = [
     //{ name: "ファイヤーチャージを使用", id: "item.firecharge.use", sounds: ["mob/wither/spawn"], genre: ["魔法"]},
     { name: "ゾンビが感染", id: "entity.zombie.infect", sounds: ["mob/zombie/infect"], genre: ["炎"] },
     { name: "ゾンビが木製のドアをたたく", id: "entity.zombie.attack_wooden_door", sounds: [["mob/zombie/wood", 4]], genre: ["打撃・衝突"] },
-    { name: "ゾンビが鉄製のドアをたたく", id: "entity.zombie.attack_iron_door", sounds: [["mob/zombie/metal", 3]], genre: ["打撃・衝突"] },
+    { name: "ゾンビが鉄製のドアをたたく", id: "entity.zombie.attack_iron_door", sounds: [["mob/zombie/metal", 3]], genre: ["打撃・衝突","石・金属"] },
     { name: "ゾンビがドアを壊す", id: "entity.zombie.break_wooden_door", sounds: ["mob/zombie/woodbreak"], genre: ["爆発", "打撃・衝突"] },
     { name: "村人ゾンビが叫ぶ", id: "entity.zombie_villager.converted", sounds: ["mob/zombie/unfect"], genre: ["鳴き声", "魔法"] },
     { name: "村人ゾンビを治療", id: "entity.zombie_villager.cure", sounds: ["mob/zombie/remedy"], genre: ["爆発", "魔法"] },
